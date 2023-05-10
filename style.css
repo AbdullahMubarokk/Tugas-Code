@@ -1,0 +1,49 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 2px;
+    border-bottom: 1px solid black;
+}
+
+.logo {
+    padding: 3px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+.nav {
+    display: flex;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.nav-item {
+    text-align: center;
+    padding: 10px;
+    justify-content: flex-end;
+}
+
+.nav-center {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding: 10px;
+}
+.banner {
+    text-align: center;
+}
+
+section#home {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.form {
+    background-color: grey;
+    border-radius: 3px;
+
+}
+
+.style-form {
+    padding: 20px;
+    
+}
